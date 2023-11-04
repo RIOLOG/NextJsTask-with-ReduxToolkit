@@ -1,0 +1,150 @@
+/* DisplayUsers.css */
+.display-users {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .display-users-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .user-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .user-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-name {
+    font-size: 18px;
+  }
+  
+  .remove-button {
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+  }
+  
+  .remove-button:hover {
+    background-color: #d9411e;
+  }
+/* AddUsers.css */
+.add-users-container {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .add-users-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .add-users-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .add-users-input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 16px;
+  }
+  
+  .add-users-button {
+    background-color: #47b1e5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+  }
+  
+  .add-users-button:hover {
+    background-color: #3282a0;
+  }
+
+  
+/* Header.module.css */
+.header {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .logo a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  
+  /* Footer.module.css */
+.footer {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+
+  .footer-content
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .footer a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+  }
+  
